@@ -12,6 +12,7 @@
 // limitations under the License.
 
 'use strict';
+require('@google/cloud-trace').start({enhancedDatabaseReporting: true});
 
 var path = require('path');
 var express = require('express');
